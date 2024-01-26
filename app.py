@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-	return "This container is total 🔥."
+	return "This container is 💀."
