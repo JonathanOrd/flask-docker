@@ -21,7 +21,7 @@ jobs:
       - name: Checkout # check out our repo
         uses: actions/checkout@v3
         with:
-          ssh-key: ${{ secrets.FLASK_CI_SSH_KEY_}}
+          token: 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
 
       - name: Log in to the container registry
         uses: docker/login-action@v2
